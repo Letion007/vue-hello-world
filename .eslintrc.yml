@@ -1,0 +1,214 @@
+extends: 'eslint:recommended'
+plugins:
+  - html
+parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
+env:
+  browser: true
+  jquery: true
+  commonjs: true
+  node: true
+  es6: true
+  shelljs: true
+rules:
+  indent:
+    - 2
+    - 2
+  linebreak-style:
+    - 2
+    - unix
+  quotes:
+    - 2
+    - single
+  semi:
+    - 2
+    - always
+  no-console:
+    - 1
+  max-len:
+    - 0
+    - 140
+  no-multi-spaces:
+    - 2
+  comma-dangle:
+    - 2
+    - always-multiline
+  newline-before-return:
+    - 2
+  no-multiple-empty-lines:
+    - 2
+  no-nested-ternary:
+    - 2
+  no-trailing-spaces:
+    - 2
+  one-var:
+    - 2
+    - never
+  padded-blocks:
+    - 2
+    - never
+  eqeqeq:
+    - 2
+  space-before-function-paren:
+    - 2
+    - always
+  import/no-unresolved:
+    - 0
+globals:
+  _selectionController: true
+  AccountAddressesController: true
+  AccountAnalyticsController: true
+  AccountBillingController: true
+  AccountEmailController: true
+  AccountPreferencesModel: true
+  AccountSettingsModel: true
+  AccountStorageController: true
+  AccountStorageMonitor: true
+  AccountUserController: true
+  AccountWebController: true
+  addBaseStorageUrl: true
+  addBaseStorageUrlAndSizeToImages: true
+  addMapAndBaseStorageUrl: true
+  addSizeAndBaseToImageUrls: true
+  addUserController: true
+  AlertUpgradeStoragePlan: true
+  appConfiguration: true
+  applicationEvents: true
+  AppPreferences: true
+  AppStatusController: true
+  AppStatusModel: true
+  ArchiveStatus: true
+  Assets: true
+  authenticateController: true
+  authenticateModel: true
+  BillingInfoModel: true
+  Busy: true
+  calcHeaderOverlap: true
+  checkOsversion: true
+  ChildGalleryConnectList: true
+  clone: true
+  CloudSpot: true
+  configureAjax: true
+  ConnectListData: true
+  ControllerVue: true
+  convertToWinPaths: true
+  copyToClipboard: true
+  CoverPhotoUploadUIController: true
+  crossroads: true
+  dateFromString: true
+  DEFAULT_HASH: true
+  Dialogs: true
+  DiscountCodes: true
+  EmailRecipientController: true
+  EmailRecipientModel: true
+  EmailTemplatesModel: true
+  escapeSelector: true
+  EventAnalyticsController: true
+  EventAnalyticsModel: true
+  EventCategories: true
+  EventDownloadController: true
+  eventDownloadProcessingController: true
+  EventFilterController: true
+  FileDownloadController: true
+  FileImportController: true
+  FileImportModel: true
+  FileModel: true
+  FileNameCollisionDialogController: true
+  FileUploadController: true
+  FileUploadStatusList: true
+  FilterboxInterfaceController: true
+  FilterboxInterfaceModel: true
+  formattedDate: true
+  GalleryAbstractController: true
+  GalleryController: true
+  galleryCreateCompleteController: true
+  GalleryCreateController: true
+  GalleryEditController: true
+  GalleryListController: true
+  GalleryModel: true
+  GalleryPaginationController: true
+  getAllUsersLoginInfo: true
+  getClientId: true
+  getClientSecret: true
+  GridSelectionController: true
+  GrowlAlertController: true
+  GrowlAlertsUIList: true
+  hasher: true
+  hasValidMimeType: true
+  HeaderAvatarController: true
+  ImageController: true
+  ImageModel: true
+  ImageStorage: true
+  Intercom: true
+  IntercomController: true
+  isViewActive: true
+  logger: true
+  MainNavigationController: true
+  mixpanel: true
+  ModalMessageController: true
+  ModalMessageModel: true
+  moveCursorToEnd: true
+  Mustache: true
+  naturalSorter: true
+  navigateToUrl: true
+  nw: true
+  nwGui: true
+  occurrences: true
+  OnboardingController: true
+  OnlineGalleryController: true
+  OnlineGalleryData: true
+  OnlineGalleryEditor: true
+  OnlineGalleryModel: true
+  OnlineGallerySelector: true
+  OnUpgradePaymentAddController: true
+  Orders: true
+  PhotoSwipe: true
+  PhotoSwipeUI_Default: true
+  Products: true
+  Promise: true
+  QuickStartController: true
+  Ractive: true
+  recursiveObserve: true
+  registerController: true
+  registerModel: true
+  renderTemplate: true
+  ResetPasscodeController: true
+  SelectionController: true
+  setAllUsersLoginInfo: true
+  shareCompletionController: true
+  ShareData: true
+  shareImageDownloadController: true
+  ShareTypeModel: true
+  shareTypeSelectionController: true
+  Shipping: true
+  signals: true
+  slider: true
+  Sortable: true
+  startSessionTimeoutTimer: true
+  StorageNotificationController: true
+  StoragePlansModel: true
+  StoreFrontTourController: true
+  StoreModel: true
+  subGalleryConnectListController: true
+  TopChromeController: true
+  UIAddPaymentMethodPopup: true
+  UIComponent: true
+  UIDiscountCode: true
+  UIOnlineGalleryAlias: true
+  UISizeSelector: true
+  UITipsMonitor: true
+  UIUpgradeCompletePopup: true
+  UIUpgradeConfirmationPopup: true
+  UIWatermarkComponent: true
+  upgradeCompletionController: true
+  UploadProcessingCompletionBus: true
+  UploadProcessingCompletionController: true
+  userSessionData: true
+  VaultController: true
+  VaultModel: true
+  VaultMonitor: true
+  Vue: true
+  vueComponents: true
+  VueRouter: true
+  WindowController: true

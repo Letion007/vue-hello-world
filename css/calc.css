@@ -1,0 +1,481 @@
+/*        калькулятор овуляции   */
+
+.block-calculate_up   
+{ 
+    padding: 5px 0 5px 0;
+	background: #B3118B;	
+	font-size:18px;
+	color:#fff;
+	text-shadow: 1px 1px 2px black, 0 0 1em #F29BDC;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	border:1px;
+	border-color:#939;
+	border-style:dotted;
+	border-radius: 10px 10px 0 0;	
+	/*width:728px; */
+	
+}
+.block-calculate  
+{ 
+   	padding: 0px;	
+	background-image:url(../../img/kalendar/kalendar_ovuljacii.jpg);	
+	font-size:18px;
+	color: #000;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	border:1px;
+	border-color:#939;
+	border-style:dotted;
+	border-radius: 0 0 10px 10px;
+/*	height:230px;
+	width:728px; */
+}
+.block-calculate1  
+{ 
+   	padding: 0px;	
+	background-image:url(../../img/kalendar/kalendar_ovuljacii.jpg);	
+	font-size:18px;
+	color: #000;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	border:1px;
+	border-color:#939;
+	border-style:dotted;
+	border-radius: 0 0 10px 10px;
+/*	height:230px;
+	width:728px; */
+} 
+.block-calculate2  /*	именно этот относится к калькулятору набора веса при беременности */
+{ 
+   	padding: 0px;	
+	background-image:url(../../img/kalendar/calculator_nabora_vesa_pri_beremennosti.jpg);	
+	font-size:18px;
+	color: #000;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	border:1px;
+	border-color:#939;
+	border-style:dotted;
+	border-radius: 0 0 10px 10px;
+	height:230px;
+}
+ 
+/*	=	Select */
+.slct {
+	
+	border-radius: 5px;
+	border: 1px solid #cecece;
+	background-color: #F6F6f6;
+	margin:0 0 0 5px;	
+	padding: 4px 5px 4px 5px;
+	color: #444; 
+}
+
+
+TABLE.calc
+{
+text-align:center;
+BORDER-BOTTOM: 2px; BORDER-LEFT: 2px; BORDER-TOP: 2px; BORDER-RIGHT: 2px;
+border:2px;
+}
+IMG.arrow {
+	BORDER: 0px;
+	margin: 0px;
+	margin-top:100px;
+	vertical-align:middle;
+	}
+
+.text_calculate
+{
+font:Geneva, Arial, Helvetica, sans-serif;
+font-size:18px;
+text-align:justify;
+margin: 10 px;
+padding:10px;
+
+}
+.calculate
+{
+text-align:center;
+}
+.calculate_TD
+{
+text-align:center;
+background-image:url(img/table_pink_.jpg);
+font-size:18px;
+font-weight:bold;
+color:#000000;
+font:Tahoma, Helvetica, sans-serif;
+vertical-align:middle;
+}
+
+
+tr.calendar{ width:30px; height:30px;}
+
+th{ background-image: url(../../img/kalendar/th_fon.jpg); border:solid 1px #6f6f6f; color:#0740fb; width:30px;  height:30px; font-size:110%;}
+td.none{ background-color:#e7e7e7; border:0px;width:30px; height:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.menst_1{ background-color:#ff0000; background: radial-gradient(#F8AFAF, #F46767); border-color:#000000; height:30px; color:#000000;width:30px;  border:solid 2px #E00000; font-size:18px; text-align:center;}
+td.menst_2{ background-color:#f25b5b; background: radial-gradient(#fa9e9e, #F8AFAF); border-color:#000000; height:30px; color:#000000;width:30px;  border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.menst_3{ background-color:#fa9e9e; background: radial-gradient(#FAD1D1, #fa9e9e); border-color:#000000; height:30px; color:#000000;width:30px;  border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.ovulation_1 { background-color:#106467; background: radial-gradient(#14F571, #28B864); border-color:#FF531A; color:#000000; width:30px; height:30px;border:solid 2px #009E42; font-size:18px;text-weight:700; text-align:center;}
+td.ovulation_2 { background-color:#6db5b8; background: radial-gradient(#9EF0C1, #24DB72); border-color:#FF531A; color:#000000;width:30px; height:30px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.ovulation_3 { background-color:#b9e0e1; background: radial-gradient(#C6D7CD, #9EF0C1); border-color:#FF531A; color:#000000;width:30px; height:30px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.rodi_1 { background-color:#903dee; background: radial-gradient(#E3D0FB, #934FE8); border-color:#FF531A; color:#000000;width:30px; height:30px;  border:solid 2px #5709BD; font-size:18px; text-align:center;}
+td.rodi_2 { background-color:#a97ed9; background: radial-gradient(#E3D0FB, #C29AF4); border-color:#FF531A; color:#000000;width:30px; height:30px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.rodi_3 { background-color:#dcc1fa; background: radial-gradient(#E9DDF8, #E3D0FB); border-color:#FF531A; color:#000000;width:30px; height:30px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.holiday{ background-color:#db14d4; border-color:#FF531A; color:#000000;width:30px; height:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.day{ background-color:#e7e7e7; color:#000000;width:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; text-align:center;}
+td.boy_0 { background-color:#FCA4FC; background: radial-gradient(#C0EEFA, #6DE0FC); border-color: #FF531A; color: #F00;width:30px; height:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; font-weight:bold; text-align:center;}
+td.boy_1 { background-color:#FCA4FC; background: radial-gradient(#C0EEFA, #6DE0FC); color:#000000;width:30px; height:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; font-weight:bold; text-align:center;}
+td.girl_1 { background-color:#FCA4FC; background: radial-gradient(#FFD1FF, #FCA4FC); border-color:#FF531A; color:#000000;width:30px; height:30px;  border:0px; border:solid 1px #6f6f6f; font-size:18px;  font-weight:bold;text-align:center;}
+td.boy_girl { background-color:#D8A4FC; background: linear-gradient(-45deg, #6DE0FC 0%, #6DE0FC 40%, #FCA4FC 60%, #FCA4FC 100%);  border-color:#FF531A; color:#000000;width:30px; height:30px; border:0px; border:solid 1px #6f6f6f; font-size:18px; font-weight:bold; text-align:center;}
+td.legenda{background-color:#FFFFff; border-color:#000000;width:900px; border:0px; height:30px; border:solid 0px #0000ff; font-size:12px; color:0000ff;}
+td.zodiak{background-color:#FFFFff; border-color:#000000;width:150px; border:0px; border:solid 0px #6f6f6f; font-size:18px; text-align:center;}
+
+.calendar td:hover {text-shadow: 1px 1px 2px #fff, 0 0 2em #fff;}
+
+.btn_calc {
+	min-width: 180px;
+  margin: 20px 0;	
+  background: #B3118B;
+  background-image: -webkit-linear-gradient(top, #B3118B, #BA64A5);
+  background-image: -moz-linear-gradient(top, #B3118B, #BA64A5);
+  background-image: -ms-linear-gradient(top, #B3118B, #BA64A5);
+  background-image: -o-linear-gradient(top, #B3118B, #BA64A5);
+  background-image: linear-gradient(to bottom, #B3118B, #BA64A5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em #F29BDC;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #8A0167 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn_calc:focus {outline: none;}
+
+.btn_calc:hover {
+  background: #B3118B;
+  background-image: -webkit-linear-gradient(top, #C7269F, #C97BB6);
+  background-image: -moz-linear-gradient(top, #C7269F, #C97BB6);
+  background-image: -ms-linear-gradient(top, #C7269F, #C97BB6);
+  background-image: -o-linear-gradient(top, #C7269F, #C97BB6);
+  background-image: linear-gradient(to bottom, #C7269F, #C97BB6);
+  text-decoration: none;
+}
+
+
+.kal_s_po{
+	color:#03F;
+	font-size:18px;
+	font-weight:bold;
+		
+}
+
+
+/*        календарь беременности   */
+.week_count_green
+{
+padding:4px;
+color: #0f5e27;
+text-align:left;
+font-weight:bold;
+}
+.week_count_green a
+{
+color: #0f5e27;
+}
+
+#week td {
+	text-align:justify;
+	padding: 10px 6px;
+	color: #687683;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+
+/*        календарь набор веса при беременности   */
+
+.block-calculate_nabor_vesa 
+{
+padding-top:35px;
+padding-left:50px;
+text-align:left; 
+
+
+} 
+.calculate_nabor_vesa_result 
+{
+margin: 5px 0 5px 0;
+padding: 35px 0 35px 50px;
+font-size:22px;
+text-align:left;
+color:#06F;
+background-image:url(../../img/kalendar/kalendar_ovuljacii.jpg); 
+border:1px;
+border-color:#939;
+border-style:dotted;
+border-radius: 10px 10px 10px 10px; 
+
+
+} 
+#result_ves{
+
+font-size:26px;
+color:#00F;
+font-weight:bold;
+}
+
+/*       рассчитать календарь беременности  */
+.calendar_rachet_date{
+display: inline-block;
+font-size:17px;
+color: #b3118b;
+text-decoration: underline;
+}
+.calendar_rachet_text{
+display: inline-block;
+font-size:17px;
+color: #64646e;
+text-align: justify;
+}
+
+
+/*widget calc*/
+/*planning*/
+.calc_planning_widget{
+	margin: 20px auto;
+	height: 268px;
+	width: 460px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#B3AFC7;
+	border-style:solid;
+	border-radius: 5px;
+	background-color: #ecebd6;
+	background-image:url(../../img/kalendar/pinetki1.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	outline: 0px solid #FF00AE;
+}
+.calc_planning_widget h2{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	text-align:center;
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	color: #0C6665;
+	FONT-SIZE: 20px;
+	FONT-WEIGHT: bold;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+.calc_planning_widget a {
+	color: #0C6665;
+}
+.calc_planning_widget p {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 5px 10px;
+	/*text-align:left;*/
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #0C6665;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: normal;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+/*pregnacy*/
+#calk_pregnancy{
+	margin:20px 10px 0px 0px;
+	height:268px;
+	width:460px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#B3AFC7;
+	border-style:solid;
+	border-radius: 5px;
+	background-size: cover;
+	background-image:url(../../img/kalendar/woman_pregn.jpg);
+	outline: 0px solid #FF00AE;
+}
+#calk_pregnancy h2{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	text-align:center;
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #0C6665;
+	FONT-SIZE: 20px;
+	FONT-WEIGHT: bold;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+#calk_pregnancy a{
+	COLOR: #0C6665;
+}
+#calk_pregnancy p{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 5px 10px;
+	/*text-align:left;*/
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #0C6665;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: normal;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+.form1{
+	margin:0px 0px 0px 20px;
+}
+.form2{
+	margin:50px 0px 0px 10px;
+}
+/*calc births*/
+#calk_births{
+	margin:20px 10px 0px 0px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#B3AFC7;
+	border-style:solid;
+	border-radius: 5px;
+	background-image:url(../../img/kalendar/denj_rodov.jpg);
+	background-size: cover;
+	outline: 0px solid #FF00AE;
+}
+#calk_births h2{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	text-align:center;
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #0C6665;
+	FONT-SIZE: 20px;
+	FONT-WEIGHT: bold;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+#calk_births a{
+	COLOR: #0C6665;
+}
+#calk_births p{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 5px 10px;
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #0C6665;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: normal;
+	FONT-style: italic;
+    outline: 0px solid #000000;
+}
+.form1{
+	margin:0px 0px 0px 20px;
+}
+.form2{
+	margin:50px 0px 0px 10px;
+}
+
+.form_data_rodov{
+	margin:0px 0px 0px 10px;
+	FONT-FAMILY: Calibri, Arial, sans-serif;
+	COLOR: #530A37;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: bold;
+	FONT-style: italic;
+	text-align: left;
+}
+.empty-box {
+	min-height: 200px;
+}
+
+@media (max-width: 1024px) {
+	.block-calculate_up, .calc_planning_widget {
+		width: 100%;
+		height: inherit;
+	}
+	.block-calculate {
+		width: 100%;
+		height: 270px;
+		font-size: 16px;
+	}
+	#calk_pregnancy {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.btn_calc {
+		margin: 30px 0 0;
+		padding: 10px 10px;
+		font-size: 18px;
+	}
+}
+
+
+/*anekdot*/
+.blok_anekdot {
+	margin: 10px 0  20px 0;
+}
+.blok_anekdot p {
+	padding: 20px 10px;
+	font-style: italic;
+	border: 2px dashed #a6e5ff;
+}
+ .blok_anekdot img {
+ 	max-width: 50%;
+ }
+.btn-anekdot {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+	background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:25px;
+	border-radius:6px;
+	border: 2px solid #84bbf3;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.btn-anekdot:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+.btn-anekdot:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* end anekdot*/
